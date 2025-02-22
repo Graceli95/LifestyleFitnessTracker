@@ -17,7 +17,7 @@ User (user_id)
 * Schedule meals, workouts  and Log meals/snacks/workouts and track calorie intake.
 * Users are able to add their own meals and workouts
 * Monitor workout activities with detailed tracking and charts.
-* Show  the user’s progress over time
+* Show  the user’s progress over time and calculate user's workout hours
 * Schedule personalized weekly/monthly plans (workouts, meals).
 
 ### Deferred Features
