@@ -9,6 +9,19 @@ User (user_id)
     └───< Schedule (schedule_id, user_id, activity_type, activity_id, status, date)
                    ├── Links to Meal (meal_id) if activity_type = 'meal'
                    └── Links to Workout (workout_id) if activity_type = 'workout'
+
+src/main/java/com/grace/project/
+├── models/         # JPA entities (User, Meal, Workout, Schedule)
+│   ├── User.java
+│   ├── Meal.java
+│   ├── Workout.java
+│   └── Schedule.java
+├── enums/          # Place all enums here ✅
+│   ├── MealType.java
+│   ├── ActivityType.java
+│   └── Status.java
+└── services/       # Business logic
+└── controllers/    # REST APIs
 ```
 
 <img width="557" alt="Screenshot 2025-02-09 at 1 33 06 PM" src="https://github.com/user-attachments/assets/8af5f375-22df-4df5-8df4-dfba3a1748e9" />
